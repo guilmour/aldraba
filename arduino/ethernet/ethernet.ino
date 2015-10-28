@@ -9,7 +9,7 @@ Circuit:
 #include <Ethernet.h>
 
 // Enter a MAC address and IP address for your controller below.
-byte mac[] = {0x90, 0xA2, 0xDA, 0x0D, 0x48, 0xD3 };
+byte mac[] = {0x01,0x23,0x45,0x67,0x89,0xAB};
 
 // The IP address will be dependent on your local network:
 // assign an IP address for the controller:
