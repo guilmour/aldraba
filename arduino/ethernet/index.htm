@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Aldraba v0.01</title>
         <script>
         strLED1 = "";
@@ -26,11 +27,11 @@
                             }
                             // LED 2
                             if (this.responseXML.getElementsByTagName('LED')[1].childNodes[0].nodeValue === "on") {
-                                document.getElementById("LED2").innerHTML = "LED 2 is ON (D7)";
+                                document.getElementById("LED2").innerHTML = "LED 2 - LIGADO (7)";
                                 LED2_state = 1;
                             }
                             else {
-                                document.getElementById("LED2").innerHTML = "LED 2 is OFF (D7)";
+                                document.getElementById("LED2").innerHTML = "LED 2 - DESLIGADO (7)";
                                 LED2_state = 0;
                             }
                         }
@@ -70,41 +71,47 @@
         .IO_box {
             float: left;
             margin: 0 20px 20px 0;
-            border: 1px solid blue;
+            border: 1px;
+            border-color: #199FBD;
             padding: 0 5px 0 5px;
             width: 120px;
+            font-family: Helvetica;
         }
         h1 {
             font-size: 120%;
-            color: blue;
+            color: #199FBD;
             margin: 0 0 10px 0;
+            font-family: Helvetica;
         }
         h2 {
             font-size: 85%;
-            color: #5734E6;
+            color: #199FBD;
             margin: 5px 0 5px 0;
+            font-family: Helvetica;
         }
         p, form, button {
             font-size: 80%;
             color: #252525;
+            font-family: Helvetica;
         }
         .small_text {
             font-size: 70%;
             color: #737373;
+            font-family: Helvetica;
         }
     </style>
     </head>
     <body onload="GetArduinoIO()">
-        <h1>Arduino Ajax LED Button Control</h1>
+        <h1>Aldraba Web to Led Switcher V0.0.1</h1>
         <div class="IO_box">
-            <h2>LED Using Checkbox</h2>
+            <h2>Checkbox</h2>
             <form id="check_LEDs" name="LED_form">
-                <input type="checkbox" name="LED1" value="0" onclick="GetCheck()" />LED 1 (D6)<br /><br />
+                <input type="checkbox" name="LED1" value="0" onclick="GetCheck()" />LED_1 (6)<br /><br />
             </form>
         </div>
         <div class="IO_box">
-            <h2>LED Using Button</h2>
-            <button type="button" id="LED2" onclick="GetButton1()">LED 2 is OFF (D7)</button><br /><br />
+            <h2>Botões</h2>
+            <button type="button" id="LED2" onclick="GetButton1()">LED_2 DESLIGADO (7)</button><br /><br />
         </div>
     </body>
 </html>
