@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.22)  22 SEP 2015 05:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.4)  2 DEC 2015 08:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **abntdoc.tex
 (./abntdoc.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 3 languages loaded.
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
@@ -279,35 +279,57 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 21.
 
-Overfull \hbox (2.79532pt too wide) in paragraph at lines 21--21
- [][] 
- []
-
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./abntdoc.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./abntdoc.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 4.
+)
 \tf@toc=\write3
 \openout3 = `abntdoc.toc'.
 
  [2]
-[3] (./abntdoc.bbl) [4] (./abntdoc.aux) ) 
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
+
+ []
+
+
+Overfull \hbox (3.36215pt too wide) in paragraph at lines 36--38
+\OT1/cmr/bx/n/12 Palavras-chave: \OT1/cmr/m/n/12 tranca-eletr^onica, tranca-ele
+tromec^anica, ar-duino, an-droid,
+ []
+
+[3] [4]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 60.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 60.
+ (./abntdoc.bbl [5]) [6] (./abntdoc.aux) ) 
 Here is how much of TeX's memory you used:
- 885 strings out of 495004
- 10158 string characters out of 6180662
- 61558 words of memory out of 5000000
- 4146 multiletter control sequences out of 15000+600000
- 6757 words of font info for 24 fonts, out of 8000000 for 9000
- 17 hyphenation exceptions out of 8191
- 23i,9n,23p,186b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmti12.pfb>
-Output written on abntdoc.pdf (4 pages, 55672 bytes).
+ 930 strings out of 493304
+ 10743 string characters out of 6139872
+ 70755 words of memory out of 5000000
+ 4420 multiletter control sequences out of 15000+600000
+ 9671 words of font info for 34 fonts, out of 8000000 for 9000
+ 958 hyphenation exceptions out of 8191
+ 23i,9n,23p,1426b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.
+pfb>
+Output written on abntdoc.pdf (6 pages, 81440 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 47 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

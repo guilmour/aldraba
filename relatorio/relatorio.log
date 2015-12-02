@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.17)  18 NOV 2015 15:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.4)  2 DEC 2015 03:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **relatorio.tex
 (./relatorio.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 3 languages loaded.
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
@@ -545,12 +545,12 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
  [2] [3]
 (./relatorio.bbl) [4] (./relatorio.aux) ) 
 Here is how much of TeX's memory you used:
- 3305 strings out of 495004
- 45146 string characters out of 6180662
- 119808 words of memory out of 5000000
- 6456 multiletter control sequences out of 15000+600000
+ 3305 strings out of 493304
+ 45146 string characters out of 6139872
+ 124004 words of memory out of 5000000
+ 6695 multiletter control sequences out of 15000+600000
  17681 words of font info for 39 fonts, out of 8000000 for 9000
- 16 hyphenation exceptions out of 8191
+ 957 hyphenation exceptions out of 8191
  38i,10n,28p,931b,207s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/e
 nc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts

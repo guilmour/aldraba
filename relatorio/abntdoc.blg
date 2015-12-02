@@ -24,44 +24,48 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: abntdoc.bib
-You've used 1 entry,
+Warning--there is no address in hobsbawm1
+Warning--there is no address in bolzani
+Warning--there is no address in chamusca
+You've used 4 entries,
             4793 wiz_defined-function locations,
-            1168 strings with 11296 characters,
-and the built_in function-call counts, 246 in all, are:
-= -- 21
-> -- 4
+            1184 strings with 11604 characters,
+and the built_in function-call counts, 717 in all, are:
+= -- 59
+> -- 16
 < -- 0
-+ -- 2
-- -- 1
-* -- 22
-:= -- 45
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 2
++ -- 8
+- -- 4
+* -- 40
+:= -- 119
+add.period$ -- 13
+call.type$ -- 4
+change.case$ -- 8
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 10
-empty$ -- 27
-format.name$ -- 1
-if$ -- 51
+cite$ -- 7
+duplicate$ -- 37
+empty$ -- 93
+format.name$ -- 4
+if$ -- 161
 int.to.chr$ -- 0
-int.to.str$ -- 1
+int.to.str$ -- 4
 missing$ -- 0
-newline$ -- 8
-num.names$ -- 1
-pop$ -- 1
+newline$ -- 24
+num.names$ -- 4
+pop$ -- 18
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2
+skip$ -- 8
 stack$ -- 0
 substring$ -- 21
-swap$ -- 2
+swap$ -- 5
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 2
-width$ -- 2
-write$ -- 14
+warning$ -- 3
+while$ -- 5
+width$ -- 5
+write$ -- 46
+(There were 3 warnings)
